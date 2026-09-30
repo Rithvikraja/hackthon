@@ -1,0 +1,8 @@
+# Optional curated seed genes, shown explicitly as "curated seed" in outputs.
+# Never mixed silently with GWAS genes.
+curated_seeds:
+  HD:
+    genes:
+      - symbol: "HTT"
+        citation: "The Huntington's Disease Collaborative Research Group, Cell 1993"
+        role: "Causal trinucleotide repeat expansion gene"

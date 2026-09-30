@@ -1,0 +1,26 @@
+sources:
+  ahba:
+    description: "Allen Human Brain Atlas adult human brain microarray normalization"
+    base_url: "https://human.brain-map.org/static/download"
+    citation: "Hawrylycz et al., Nature 2012"
+    donors:
+      - id: 9861
+        file: "donor9861.zip"
+      - id: 10021
+        file: "donor10021.zip"
+      - id: 12876
+        file: "donor12876.zip"
+      - id: 14380
+        file: "donor14380.zip"
+      - id: 15496
+        file: "donor15496.zip"
+      - id: 15697
+        file: "donor15697.zip"
+  gwas:
+    description: "NHGRI-EBI GWAS Catalog bulk associations"
+    url: "https://www.ebi.ac.uk/gwas/api/search/downloads/alternative"
+    citation: "Buniello et al., Nucleic Acids Res 2019"
+  hgnc:
+    description: "HGNC complete set of human gene symbols"
+    url: "https://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/tsv/hgnc_complete_set.txt"
+    citation: "Tweedie et al., Nucleic Acids Res 2021"

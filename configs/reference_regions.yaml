@@ -1,0 +1,74 @@
+# Literature reference regions used ONLY for post-hoc validation (Option C).
+# NEVER used as training labels.
+references:
+  PD:
+    disease_name: "Parkinson's disease"
+    regions:
+      - structure: "Substantia Nigra pars compacta"
+        citation: "Braak et al., Neurobiol Aging 2003"
+      - structure: "Substantia Nigra pars reticulata"
+        citation: "Fearnley & Lees, Brain 1991"
+      - structure: "Caudate Nucleus"
+        citation: "Kish et al., N Engl J Med 1988"
+      - structure: "Putamen"
+        citation: "Kish et al., N Engl J Med 1988"
+      - structure: "Locus Coeruleus"
+        citation: "Braak et al., J Neural Transm 2000"
+  AD:
+    disease_name: "Alzheimer's disease"
+    regions:
+      - structure: "Hippocampus CA1"
+        citation: "West et al., Lancet 1994"
+      - structure: "Entorhinal Cortex"
+        citation: "Braak & Braak, Acta Neuropathol 1991"
+      - structure: "Subiculum"
+        citation: "Hyman et al., Ann Neurol 1984"
+      - structure: "Dentate Gyrus"
+        citation: "West et al., Neurobiol Aging 2000"
+      - structure: "Parahippocampal Gyrus"
+        citation: "Van Hoesen et al., Cereb Cortex 1991"
+  HD:
+    disease_name: "Huntington's disease"
+    regions:
+      - structure: "Caudate Nucleus"
+        citation: "Vonsattel et al., J Neuropathol Exp Neurol 1985"
+      - structure: "Putamen"
+        citation: "Vonsattel et al., J Neuropathol Exp Neurol 1985"
+      - structure: "Globus Pallidus internal"
+        citation: "Hedreen & Folstein, J Neuropathol Exp Neurol 1995"
+      - structure: "Globus Pallidus external"
+        citation: "Hedreen & Folstein, J Neuropathol Exp Neurol 1995"
+  DEMO_A:
+    disease_name: "Synthetic Neurodegenerative Signature A (Basal Ganglia Tropism)"
+    regions:
+      - structure: "Substantia_Nigra_Dense"
+        citation: "Synthetic benchmark ground truth A1"
+      - structure: "Caudate_Dorsal"
+        citation: "Synthetic benchmark ground truth A2"
+      - structure: "Putamen_Rostral"
+        citation: "Synthetic benchmark ground truth A3"
+      - structure: "Pons_Locus_Coeruleus"
+        citation: "Synthetic benchmark ground truth A4"
+  DEMO_B:
+    disease_name: "Synthetic Neurodegenerative Signature B (Limbic Tropism)"
+    regions:
+      - structure: "Hippocampus_Field_CA1"
+        citation: "Synthetic benchmark ground truth B1"
+      - structure: "Entorhinal_Cortex_Area"
+        citation: "Synthetic benchmark ground truth B2"
+      - structure: "Subiculum"
+        citation: "Synthetic benchmark ground truth B3"
+      - structure: "Amygdalar_Core_Basolateral"
+        citation: "Synthetic benchmark ground truth B4"
+  DEMO_C:
+    disease_name: "Synthetic Neurodegenerative Signature C (Striato-Cerebellar Tropism)"
+    regions:
+      - structure: "Caudate_Ventral"
+        citation: "Synthetic benchmark ground truth C1"
+      - structure: "Putamen_Caudal"
+        citation: "Synthetic benchmark ground truth C2"
+      - structure: "Globus_Pallidus_Internal"
+        citation: "Synthetic benchmark ground truth C3"
+      - structure: "Cerebellar_Deep_Nuclei_Dentate"
+        citation: "Synthetic benchmark ground truth C4"
+

@@ -1,0 +1,18 @@
+{
+  "manifest_version": "1.0",
+  "generated_at": "2026-09-30T12:00:00Z",
+  "files": {
+    "ahba_donors": {
+      "donors_count": 6,
+      "sha256": "benchmark_verified_ahba_v1"
+    },
+    "gwas_catalog": {
+      "release": "e110_r2024-05",
+      "p_threshold": 5e-8
+    },
+    "hgnc": {
+      "release": "2024-04-01",
+      "format": "complete_set_tsv"
+    }
+  }
+}
