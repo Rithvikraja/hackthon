@@ -158,7 +158,7 @@ st.markdown("""
         border: 1px solid rgba(255, 255, 255, 0.08);
     }
 </style>
-""", unsafe_allow_shortcut=True)
+""", unsafe_allow_html=True)
 
 # --- HELPER FUNCTIONS ---
 def get_available_results():
@@ -247,7 +247,7 @@ st.markdown("""
         Investigating transcriptomic spatial signatures of GWAS-implicated disease enrichment across healthy human brain postmortem profiles using donor-grouped multi-objective evolutionary optimization (NSGA-II) & robust XGBoost modeling.
     </div>
 </div>
-""", unsafe_allow_shortcut=True)
+""", unsafe_allow_html=True)
 
 # Handle Pipeline Execution Request
 if st.session_state.get("trigger_pipeline_run"):
@@ -314,7 +314,7 @@ with tab1:
             <div class="metric-val">{ahba_meta.get('n_donors', '6')}</div>
             <div class="metric-label">Healthy AHBA Donors</div>
         </div>
-        """, unsafe_allow_shortcut=True)
+        """, unsafe_allow_html=True)
         
     with col2:
         st.markdown(f"""
@@ -322,7 +322,7 @@ with tab1:
             <div class="metric-val">{ahba_meta.get('n_structures', '48')}</div>
             <div class="metric-label">Brain Structures</div>
         </div>
-        """, unsafe_allow_shortcut=True)
+        """, unsafe_allow_html=True)
 
     with col3:
         st.markdown(f"""
@@ -330,7 +330,7 @@ with tab1:
             <div class="metric-val">{len(json_summary.get('diseases', {}))}</div>
             <div class="metric-label">Diseases Analyzed</div>
         </div>
-        """, unsafe_allow_shortcut=True)
+        """, unsafe_allow_html=True)
 
     with col4:
         st.markdown(f"""
@@ -338,7 +338,7 @@ with tab1:
             <div class="metric-val">{opt_meta.get('n_genes', 'N/A')}</div>
             <div class="metric-label">Knee Signature Size</div>
         </div>
-        """, unsafe_allow_shortcut=True)
+        """, unsafe_allow_html=True)
 
     with col5:
         st.markdown(f"""
@@ -346,7 +346,7 @@ with tab1:
             <div class="metric-val">{rob_meta.get('robustness_score', 0):.2f}</div>
             <div class="metric-label">Skill Retention (R)</div>
         </div>
-        """, unsafe_allow_shortcut=True)
+        """, unsafe_allow_html=True)
         
     st.markdown("---")
     
@@ -360,7 +360,7 @@ with tab1:
             <li><b>Target Label Fail-Loud Protocol</b>: Regional target labels are generated strictly without literature leakage. Prevalence must satisfy 10% – 50% positive rate.</li>
         </ul>
     </div>
-    """, unsafe_allow_shortcut=True)
+    """, unsafe_allow_html=True)
 
     st.markdown("### 🧩 The Four-Layer Architecture")
     
@@ -709,4 +709,4 @@ st.markdown("""
 <div style="text-align: center; color: #64748b; font-size: 0.85rem; padding: 16px;">
     NERVA-ML Framework v1.0.0 &bull; Licensed under MIT &bull; Python 3.11+ / XGBoost 2.0+ / pymoo 0.6+ / SHAP 0.44+
 </div>
-""", unsafe_allow_shortcut=True)
+""", unsafe_allow_html=True)
